@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunjie's Page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js"></script>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+
+
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-wrapper">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#edu" class="nav-link">Education</a>
+                <a href="#skill" class="nav-link">Skill</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="hobbies.html" class="nav-link">Hobbie Gallery</a>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- <h1>Ready to know me!</h1> -->
+        <section id="home" class="hero">
+            <div class="hero-photo">
+                <img src="images/selfie.jpg" alt="Photo of Yunjie">
+            </div>
+            <div class="hero-text">
+                <h1>Hi, I'm Yunjie</h1>
+                <p>
+                    IHi, I’m Yunjie Zou, a Health Informatics master’s student at the University of Michigan. 
+                    With a background in Intelligent Science and Technology and an exchange semester at UC Berkeley, 
+                    I’m interested in data, machine learning, and human–computer interaction, 
+                    and this website collects some of my experience, skills, and projects.
+
+                </p>
+            </div>
+        </section>
+        
+        <!-- Education Section -->
+        <section id="edu" class="education">
+            <div class="edu-container">
+                <!-- 标题 -->
+                <div class="edu-header">
+                    <h2>Education</h2>
+                    <p>Where I study, explore new ideas, and build my skills.</p>
+                </div>
+
+                <!-- 时间轴列表 -->
+                <div class="edu-timeline">
+                    <!-- 1. Master at UMich -->
+                    <div class="edu-item">
+                        <div class="edu-year">2025 – 2027</div>
+                        <div class="edu-card">
+                            <h3>University of Michigan, Ann Arbor</h3>
+                            <p class="edu-degree">Master in Health Informatics</p>
+                            <p class="edu-detail">
+                                Graduate study focusing on health data, human–computer interaction,
+                                and the design of digital health products. I aim to combine my
+                                background in intelligent science with data-driven healthcare
+                                applications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 2. Bachelor at Xidian University -->
+                    <div class="edu-item">
+                        <div class="edu-year">2021 – 2025</div>
+                        <div class="edu-card">
+                            <h3>Xidian University</h3>
+                            <p class="edu-degree">B.Eng. in Intelligent Science and Technology</p>
+                            <p class="edu-detail">
+                                Built a solid foundation in programming, intelligent systems,
+                                and data analysis. Coursework and projects prepared me for
+                                further study in machine learning, data science, and health
+                                informatics.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 3. Exchange semester at UC Berkeley -->
+                    <div class="edu-item">
+                        <div class="edu-year">Aug 2023 – Dec 2023</div>
+                        <div class="edu-card">
+                            <h3>University of California, Berkeley</h3>
+                            <p class="edu-degree">Exchange Study in Computational Biology & HCI</p>
+                            <p class="edu-detail">
+                                Completed an exchange semester, taking courses such as Berkeley
+                                Connect in Computational Biology, Data Structures, Tangible User
+                                Interfaces, and Biostatistical Methods for computational statistics
+                                in biology and medicine. This experience strengthened my interests
+                                in data-driven health and human–computer interaction.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Skills & Experience Section -->
+        <section id="skill" class="skills-section">
+            <div class="skills-container">
+
+                <!-- 标题 -->
+                <div class="skills-header">
+                    <h2>Skills & Experience</h2>
+                    <p>Hover over an experience to see which skills it highlights.</p>
+                </div>
+
+                <div class="skills-layout">
+                    <!-- 上方 / 左侧：技能标签 -->
+                    <div class="skills-list">
+                        <h3>Main Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag" data-skill="python">Python</span>
+                            <span class="skill-tag" data-skill="web">Web Design</span>
+                            <span class="skill-tag" data-skill="data">Data Analysis</span>
+                            <span class="skill-tag" data-skill="ml">Machine Learning</span>
+                            <span class="skill-tag" data-skill="dl">Deep Learning</span>
+                            <span class="skill-tag" data-skill="r">R Programming</span>
+                            <span class="skill-tag" data-skill="hci">HCI & UX Design</span>
+                        </div>
+                    </div>
+
+                    <!-- 下方 / 右侧：经历卡片 -->
+                    <div class="experience-list">
+                        <h3>Projects & Internships</h3>
+
+                        <!-- 1. YOLOv9 医学图像检测 -->
+                        <article class="exp-card"
+                                 data-skills="python,data,ml,dl">
+                            <h4>YOLOv9 Object Detection for Medical Images</h4>
+                            <p class="exp-meta">Graduation Project · 2024 – 2025</p>
+                            <p class="exp-text">
+                                Built and fine-tuned a YOLOv9 model for platelet cell detection, using
+                                COCO2017 pre-training and transfer learning on a custom medical dataset.
+                            </p>
+                        </article>
+
+                        <!-- 2. 工业数据分析中的机器学习 -->
+                        <article class="exp-card"
+                                 data-skills="python,data,ml">
+                            <h4>Core ML Algorithms in Industrial Data Analysis</h4>
+                            <p class="exp-meta">Online Research · 2024</p>
+                            <p class="exp-text">
+                                Practiced supervised and unsupervised learning, big-data visualization,
+                                and case studies in e-commerce and entertainment data.
+                            </p>
+                        </article>
+
+                        <!-- 3. 生物医学中的机器学习（R） -->
+                        <article class="exp-card"
+                                 data-skills="r,data,ml">
+                            <h4>ML Methods for Biomedical Prediction</h4>
+                            <p class="exp-meta">Research Project · 2023</p>
+                            <p class="exp-text">
+                                Used SVM, random forests, and XGBoost on UK Biobank CAD data,
+                                focusing on model building and evaluation with R.
+                            </p>
+                        </article>
+
+                        <!-- 4. Tangible UI 课程项目 -->
+                        <article class="exp-card"
+                                 data-skills="web,hci">
+                            <h4>Tangible User Interface Design Practice</h4>
+                            <p class="exp-meta">Course Project · 2023</p>
+                            <p class="exp-text">
+                                Co-designed an interactive “breathing” pillow using Arduino and a visual
+                                animation interface to guide users’ breathing.
+                            </p>
+                        </article>
+
+                        <!-- 5. 联想 HCI 实习 -->
+                        <article class="exp-card"
+                                 data-skills="python,data,hci">
+                            <h4>User Experience Data Analyst · Lenovo</h4>
+                            <p class="exp-meta">Internship · 2024</p>
+                            <p class="exp-text">
+                                Collected physiological signals, applied statistical and ML models, and
+                                built interactive data boards with Python & PyQt5.
+                            </p>
+                        </article>
+
+                        <!-- 6. 京东健康 实习 -->
+                        <article class="exp-card"
+                                 data-skills="data,hci">
+                            <h4>Technical Product Manager · JD Health</h4>
+                            <p class="exp-meta">Internship · 2024</p>
+                            <p class="exp-text">
+                                Investigated AIGC tools, analyzed drug information standards, and
+                                contributed to product flow and prototype design.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <p class="contact-subtitle">
+                    Feel free to reach out if you’d like to chat about projects, ideas, or opportunities.
+                </p>
+
+                <div class="contact-card">
+                    <!-- Email -->
+                    <div class="contact-row">
+                        <div class="contact-label">Email</div>
+                        <a class="contact-link" href="mailto:zyunjie@umich.edu">
+                            zyunjie@umich.edu
+                        </a>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div class="contact-row">
+                        <div class="contact-label">LinkedIn</div>
+                        <a class="contact-link" href="https://www.linkedin.com/in/yunjie-zou-188451386/" target="_blank">
+                            linkedin.com/in/YunjieZou
+                        </a>
+                    </div>
+
+                    <!-- Other approach -->
+                    <p class="contact-note">
+                        For additional contact info (e.g. WeChat), please reach out by email first.
+                    </p>
+                </div>
+            </div>
+            <div class="contact-icons">
+                <!-- LinkedIn 图标 -->
+                <a href="https://www.linkedin.com/in/your-profile"
+                class="icon-link"
+                target="_blank"
+                aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <!-- 邮箱图标 -->
+                <a href="mailto:yourname@gmail.com"
+                class="icon-link"
+                aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
